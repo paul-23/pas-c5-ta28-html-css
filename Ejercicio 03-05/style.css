@@ -1,0 +1,60 @@
+/*
+- Familia tipográfica de todos los textos
+- Color de fondo de la página
+- Padding para crear unos margenes alrededor del texto
+- Ancho máximo será de 800px
+*/
+body {
+  font-family: Arial,sans-serif;
+  background-color: #fff5e3;
+  padding: 2rem;
+  max-width: 800px;
+}
+/*
+- Color de fondo del título
+- Padding para crear unos margenes alrededor del texto
+*/
+h1 {
+  background-color: #ffdb8f;
+  padding: 5px;
+  padding-left: 10px;
+}
+/*
+- Tamaño del título
+- Color del título
+- Letra el cursiva
+*/
+h2 {
+  font-size: 30px;
+  color: #4b7592;
+  font-style: italic;
+}
+/*
+- Quitamos el punto que genera las listas por defecto
+*/
+ul {
+  list-style-type: none;
+}
+/*
+- Mostramos en una misma linia dos párrafos
+*/
+.div-descripcion > p {
+  display: inline;
+}
+/*
+- Dentro de la línia cogemos el primer párrafo (:first-child)
+- Letra el cursiva
+- Color del texto
+*/
+.div-descripcion > p:first-child {
+  font-style: italic;
+  color: #4b7592;
+}
+/*
+- Letra el negrita
+- Color del texto
+*/
+.titulos {
+  font-weight: bold;
+  color: #678090;
+}

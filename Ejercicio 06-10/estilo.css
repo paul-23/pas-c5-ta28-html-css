@@ -1,0 +1,108 @@
+/*
+- Fuente Arial para todo el texto
+- Centramos el contenido al centro (auto)
+- Indicamos la anchura a 900px
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  width: 900px;
+}
+/*
+- Centramos la imagen (flex / center)
+- Damos un espacio con el tope de la página
+*/
+.div-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+/*
+- Centramos el titulo
+*/
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+/*
+- Mostramos en la misma linia los titulos
+- Color del titulo
+*/
+.titulo > h1 {
+  display: inline;
+  text-align: center;
+  color: #419221;
+}
+/*
+- La segunda parte del titulo lo ponemos de color naranja
+*/
+.titulo > h1:nth-child(2) {
+  color: #cc914f;
+  margin-left: 15px;
+}
+/*
+- Color titulos h2
+- Linea gris debajo
+*/
+h2 {
+  color: #52a332;
+  border-bottom: #d3d3d3 1px solid;
+}
+/*
+- Color titulos h3
+- Espacio debajo
+*/
+h3 {
+  color: #bf823b;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+/*
+- Forma al container de contenidos (parte derecha)
+*/
+.container {
+  text-align: justify;
+  margin: 20px 20px 10px 170px;
+}
+/*
+- Borde alrededor del bloque de texto principal
+- Espaciado entre texto y borde
+*/
+.texto {
+  border: #d3d3d3 1px solid;
+  padding: 10px 15px;
+}
+/*
+- Container para los botones (izquierda)
+*/
+.botones {
+  float: left;
+  width: 130px;
+  margin: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+/*
+- Color para cada boton
+- Margenes entre botones
+- Aliniamos el texto de los botones al centro
+- Damos espacio al texto dentro de los botones
+*/
+.botones > li {
+  background-color: #bef5b9;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 5px;
+}
+/*
+- Quitamos los efectos generados por defecto para el enlace
+*/
+.botones > li > a {
+  text-decoration: none;
+}
+/*
+- Color de fondo para el boton seleccionado
+*/
+.botones > li.active {
+  background-color: #f1bf84;
+}

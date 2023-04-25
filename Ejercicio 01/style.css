@@ -1,0 +1,23 @@
+/* Color fondo página web */
+body {
+  background-color: #d3e0ec;
+}
+
+/* 
+- Padding para crear unos margenes alrededor del texto
+- Ancho máximo será de 800px
+- Justificamos el texto
+- Color del texto en azul marino
+*/
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  text-align: justify;
+  color: #213447;
+}
+
+/* Títulos en cursivo */
+h2,
+h3 {
+  font-style: italic;
+}

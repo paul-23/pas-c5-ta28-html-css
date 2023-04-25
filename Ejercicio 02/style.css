@@ -1,0 +1,16 @@
+/*
+- Color de fondo de la página
+- Familia tipográfica de todos los textos
+*/
+body {
+    background-color: #c9cff0;
+    font-family: Arial, sans-serif;
+}
+/* Tamaño del texto de los títulos */
+h1 {
+    font-size: 38px;
+}
+/* Tamaño del texto de los párrafos */
+p{
+    font-size: 23px;
+}
